@@ -1,2 +1,0 @@
-[Sun Oct 02 18:25:34.131568 2022] [fcgid:warn] [pid 5348:tid 1280] [client 127.0.0.1:61350] mod_fcgid: read timeout from pipe
-[Sun Oct 02 18:25:34.132511 2022] [core:error] [pid 5348:tid 1280] [client 127.0.0.1:61350] End of script output before headers: index.php
