@@ -1,0 +1,3 @@
+[Sun Oct 02 22:13:41.950824 2022] [fcgid:warn] [pid 18224:tid 1372] [client 127.0.0.1:62183] mod_fcgid: HTTP request length 134807 (so far) exceeds MaxRequestLen (131072), referer: http://tintatex.local/wp-admin/customize.php?theme=storefront&return=http%3A%2F%2Ftintatex.local%2Fwp-admin%2Fthemes.php
+[Sun Oct 02 22:42:00.198938 2022] [fcgid:warn] [pid 3228:tid 1336] (OS 109)The pipe has been ended.  : [client 127.0.0.1:51932] mod_fcgid: get overlap result error
+[Sun Oct 02 22:42:00.199936 2022] [core:error] [pid 3228:tid 1336] [client 127.0.0.1:51932] End of script output before headers: wp-login.php
