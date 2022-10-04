@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2022-10-04T05:15:58+00:00 CRITICAL Uncaught Error: Call to a member function move() on null in D:\sofia\Escritorio\Local\tintatex-web-page\tintatex\app\public\wp-content\plugins\git-updater-develop\src\Git_Updater\Shim.php:53
 Stack trace:
 #0 D:\sofia\Escritorio\Local\tintatex-web-page\tintatex\app\public\wp-content\plugins\git-updater-develop\src\Git_Updater\Bootstrap.php(168): move_dir('D:\\sofia\\Escrit...', 'D:\\sofia\\Escrit...')
@@ -28,4 +29,98 @@ Stack trace:
 #4 D:\sofia\Escritorio\Local\tintatex-web-page\tintatex\app\public\wp-admin\plugins.php(194): do_action('activate_git-up...')
 #5 {main}
   thrown in D:\sofia\Escritorio\Local\tintatex-web-page\tintatex\app\public\wp-content\plugins\git-updater-develop\src\Git_Updater\Shim.php on line 53
+=======
+2022-10-04T04:59:55+00:00 CRITICAL Uncaught Error: Call to a member function move() on null in D:\Local\tintatex-web-page\tintatex\app\public\wp-content\plugins\git-updater-develop\src\Git_Updater\Shim.php:53
+Stack trace:
+#0 D:\Local\tintatex-web-page\tintatex\app\public\wp-content\plugins\git-updater-develop\src\Git_Updater\Bootstrap.php(168): move_dir('D:\\Local\\tintat...', 'D:\\Local\\tintat...')
+#1 D:\Local\tintatex-web-page\tintatex\app\public\wp-includes\class-wp-hook.php(307): Fragen\Git_Updater\Bootstrap->rename_on_activation(false)
+#2 D:\Local\tintatex-web-page\tintatex\app\public\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 D:\Local\tintatex-web-page\tintatex\app\public\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#4 D:\Local\tintatex-web-page\tintatex\app\public\wp-admin\includes\plugin.php(691): do_action('activate_git-up...', false)
+#5 D:\Local\tintatex-web-page\tintatex\app\public\wp-admin\plugins.php(58): activate_plugin('git-updater-dev...', 'http://tintatex...', false)
+#6 {main}
+  thrown in D:\Local\tintatex-web-page\tintatex\app\public\wp-content\plugins\git-updater-develop\src\Git_Updater\Shim.php on line 53
+
+2022-10-04T04:59:57+00:00 CRITICAL Uncaught Error: Call to a member function move() on null in D:\Local\tintatex-web-page\tintatex\app\public\wp-content\plugins\git-updater-develop\src\Git_Updater\Shim.php:53
+Stack trace:
+#0 D:\Local\tintatex-web-page\tintatex\app\public\wp-content\plugins\git-updater-develop\src\Git_Updater\Bootstrap.php(168): move_dir('D:\\Local\\tintat...', 'D:\\Local\\tintat...')
+#1 D:\Local\tintatex-web-page\tintatex\app\public\wp-includes\class-wp-hook.php(307): Fragen\Git_Updater\Bootstrap->rename_on_activation('')
+#2 D:\Local\tintatex-web-page\tintatex\app\public\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 D:\Local\tintatex-web-page\tintatex\app\public\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#4 D:\Local\tintatex-web-page\tintatex\app\public\wp-admin\plugins.php(194): do_action('activate_git-up...')
+#5 {main}
+  thrown in D:\Local\tintatex-web-page\tintatex\app\public\wp-content\plugins\git-updater-develop\src\Git_Updater\Shim.php on line 53
+
+2022-10-04T04:59:57+00:00 CRITICAL Uncaught Error: Call to a member function move() on null in D:\Local\tintatex-web-page\tintatex\app\public\wp-content\plugins\git-updater-develop\src\Git_Updater\Shim.php:53
+Stack trace:
+#0 D:\Local\tintatex-web-page\tintatex\app\public\wp-content\plugins\git-updater-develop\src\Git_Updater\Bootstrap.php(168): move_dir('D:\\Local\\tintat...', 'D:\\Local\\tintat...')
+#1 D:\Local\tintatex-web-page\tintatex\app\public\wp-includes\class-wp-hook.php(307): Fragen\Git_Updater\Bootstrap->rename_on_activation('')
+#2 D:\Local\tintatex-web-page\tintatex\app\public\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 D:\Local\tintatex-web-page\tintatex\app\public\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#4 D:\Local\tintatex-web-page\tintatex\app\public\wp-admin\plugins.php(194): do_action('activate_git-up...')
+#5 {main}
+  thrown in D:\Local\tintatex-web-page\tintatex\app\public\wp-content\plugins\git-updater-develop\src\Git_Updater\Shim.php on line 53
+
+2022-10-04T05:00:14+00:00 CRITICAL Uncaught Error: Call to a member function move() on null in D:\Local\tintatex-web-page\tintatex\app\public\wp-content\plugins\git-updater-develop\src\Git_Updater\Shim.php:53
+Stack trace:
+#0 D:\Local\tintatex-web-page\tintatex\app\public\wp-content\plugins\git-updater-develop\src\Git_Updater\Bootstrap.php(168): move_dir('D:\\Local\\tintat...', 'D:\\Local\\tintat...')
+#1 D:\Local\tintatex-web-page\tintatex\app\public\wp-includes\class-wp-hook.php(307): Fragen\Git_Updater\Bootstrap->rename_on_activation(false)
+#2 D:\Local\tintatex-web-page\tintatex\app\public\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 D:\Local\tintatex-web-page\tintatex\app\public\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#4 D:\Local\tintatex-web-page\tintatex\app\public\wp-admin\includes\plugin.php(691): do_action('activate_git-up...', false)
+#5 D:\Local\tintatex-web-page\tintatex\app\public\wp-admin\plugins.php(58): activate_plugin('git-updater-dev...', 'http://tintatex...', false)
+#6 {main}
+  thrown in D:\Local\tintatex-web-page\tintatex\app\public\wp-content\plugins\git-updater-develop\src\Git_Updater\Shim.php on line 53
+
+2022-10-04T05:00:16+00:00 CRITICAL Uncaught Error: Call to a member function move() on null in D:\Local\tintatex-web-page\tintatex\app\public\wp-content\plugins\git-updater-develop\src\Git_Updater\Shim.php:53
+Stack trace:
+#0 D:\Local\tintatex-web-page\tintatex\app\public\wp-content\plugins\git-updater-develop\src\Git_Updater\Bootstrap.php(168): move_dir('D:\\Local\\tintat...', 'D:\\Local\\tintat...')
+#1 D:\Local\tintatex-web-page\tintatex\app\public\wp-includes\class-wp-hook.php(307): Fragen\Git_Updater\Bootstrap->rename_on_activation('')
+#2 D:\Local\tintatex-web-page\tintatex\app\public\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 D:\Local\tintatex-web-page\tintatex\app\public\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#4 D:\Local\tintatex-web-page\tintatex\app\public\wp-admin\plugins.php(194): do_action('activate_git-up...')
+#5 {main}
+  thrown in D:\Local\tintatex-web-page\tintatex\app\public\wp-content\plugins\git-updater-develop\src\Git_Updater\Shim.php on line 53
+
+2022-10-04T05:00:16+00:00 CRITICAL Uncaught Error: Call to a member function move() on null in D:\Local\tintatex-web-page\tintatex\app\public\wp-content\plugins\git-updater-develop\src\Git_Updater\Shim.php:53
+Stack trace:
+#0 D:\Local\tintatex-web-page\tintatex\app\public\wp-content\plugins\git-updater-develop\src\Git_Updater\Bootstrap.php(168): move_dir('D:\\Local\\tintat...', 'D:\\Local\\tintat...')
+#1 D:\Local\tintatex-web-page\tintatex\app\public\wp-includes\class-wp-hook.php(307): Fragen\Git_Updater\Bootstrap->rename_on_activation('')
+#2 D:\Local\tintatex-web-page\tintatex\app\public\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 D:\Local\tintatex-web-page\tintatex\app\public\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#4 D:\Local\tintatex-web-page\tintatex\app\public\wp-admin\plugins.php(194): do_action('activate_git-up...')
+#5 {main}
+  thrown in D:\Local\tintatex-web-page\tintatex\app\public\wp-content\plugins\git-updater-develop\src\Git_Updater\Shim.php on line 53
+
+2022-10-04T05:03:00+00:00 CRITICAL Uncaught Error: Call to a member function move() on null in D:\Local\tintatex-web-page\tintatex\app\public\wp-content\plugins\git-updater-develop\src\Git_Updater\Shim.php:53
+Stack trace:
+#0 D:\Local\tintatex-web-page\tintatex\app\public\wp-content\plugins\git-updater-develop\src\Git_Updater\Bootstrap.php(168): move_dir('D:\\Local\\tintat...', 'D:\\Local\\tintat...')
+#1 D:\Local\tintatex-web-page\tintatex\app\public\wp-includes\class-wp-hook.php(307): Fragen\Git_Updater\Bootstrap->rename_on_activation(false)
+#2 D:\Local\tintatex-web-page\tintatex\app\public\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 D:\Local\tintatex-web-page\tintatex\app\public\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#4 D:\Local\tintatex-web-page\tintatex\app\public\wp-admin\includes\plugin.php(691): do_action('activate_git-up...', false)
+#5 D:\Local\tintatex-web-page\tintatex\app\public\wp-admin\plugins.php(58): activate_plugin('git-updater-dev...', 'http://tintatex...', false)
+#6 {main}
+  thrown in D:\Local\tintatex-web-page\tintatex\app\public\wp-content\plugins\git-updater-develop\src\Git_Updater\Shim.php on line 53
+
+2022-10-04T05:03:02+00:00 CRITICAL Uncaught Error: Call to a member function move() on null in D:\Local\tintatex-web-page\tintatex\app\public\wp-content\plugins\git-updater-develop\src\Git_Updater\Shim.php:53
+Stack trace:
+#0 D:\Local\tintatex-web-page\tintatex\app\public\wp-content\plugins\git-updater-develop\src\Git_Updater\Bootstrap.php(168): move_dir('D:\\Local\\tintat...', 'D:\\Local\\tintat...')
+#1 D:\Local\tintatex-web-page\tintatex\app\public\wp-includes\class-wp-hook.php(307): Fragen\Git_Updater\Bootstrap->rename_on_activation('')
+#2 D:\Local\tintatex-web-page\tintatex\app\public\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 D:\Local\tintatex-web-page\tintatex\app\public\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#4 D:\Local\tintatex-web-page\tintatex\app\public\wp-admin\plugins.php(194): do_action('activate_git-up...')
+#5 {main}
+  thrown in D:\Local\tintatex-web-page\tintatex\app\public\wp-content\plugins\git-updater-develop\src\Git_Updater\Shim.php on line 53
+
+2022-10-04T05:03:02+00:00 CRITICAL Uncaught Error: Call to a member function move() on null in D:\Local\tintatex-web-page\tintatex\app\public\wp-content\plugins\git-updater-develop\src\Git_Updater\Shim.php:53
+Stack trace:
+#0 D:\Local\tintatex-web-page\tintatex\app\public\wp-content\plugins\git-updater-develop\src\Git_Updater\Bootstrap.php(168): move_dir('D:\\Local\\tintat...', 'D:\\Local\\tintat...')
+#1 D:\Local\tintatex-web-page\tintatex\app\public\wp-includes\class-wp-hook.php(307): Fragen\Git_Updater\Bootstrap->rename_on_activation('')
+#2 D:\Local\tintatex-web-page\tintatex\app\public\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 D:\Local\tintatex-web-page\tintatex\app\public\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#4 D:\Local\tintatex-web-page\tintatex\app\public\wp-admin\plugins.php(194): do_action('activate_git-up...')
+#5 {main}
+  thrown in D:\Local\tintatex-web-page\tintatex\app\public\wp-content\plugins\git-updater-develop\src\Git_Updater\Shim.php on line 53
+>>>>>>> 85cf9f1b3e21e79126de5c23d82cc9bbb87af4fd
 
