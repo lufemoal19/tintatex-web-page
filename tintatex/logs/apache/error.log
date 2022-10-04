@@ -53,3 +53,12 @@ AH00558: httpd.exe: Could not reliably determine the server's fully qualified do
 AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::c85b:de92:a501:c7bc. Set the 'ServerName' directive globally to suppress this message
 [Sun Oct 02 21:41:41.897978 2022] [mpm_winnt:notice] [pid 3256:tid 596] AH00354: Child: Starting 64 worker threads.
 >>>>>>> 7505b4daf5de201ca5fe92253485a473e522a09a
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::49ab:f127:d13d:e4b. Set the 'ServerName' directive globally to suppress this message
+[Sun Oct 02 22:17:48.897628 2022] [core:warn] [pid 9896:tid 732] AH00098: pid file C:/Users/sofia/AppData/Roaming/Local/run/M80h7GmfG/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Oct 02 22:17:48.903437 2022] [mpm_winnt:notice] [pid 9896:tid 732] AH00455: Apache/2.4.43 (Win32) mod_fcgid/2.3.9a configured -- resuming normal operations
+[Sun Oct 02 22:17:48.903437 2022] [mpm_winnt:notice] [pid 9896:tid 732] AH00456: Server built: Apr 21 2020 13:46:54
+[Sun Oct 02 22:17:48.903437 2022] [core:notice] [pid 9896:tid 732] AH00094: Command line: 'C:\\Users\\sofia\\AppData\\Roaming\\Local\\lightning-services\\apache-2.4.43+7\\bin\\win32\\bin\\httpd.exe -d C:/Users/sofia/AppData/Roaming/Local/lightning-services/apache-2.4.43+7/bin/win32 -D FOREGROUND -f C:\\Users\\sofia\\AppData\\Roaming\\Local\\run\\M80h7GmfG\\conf\\apache\\apache2.conf'
+[Sun Oct 02 22:17:48.917437 2022] [mpm_winnt:notice] [pid 9896:tid 732] AH00418: Parent: Created child process 9612
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::49ab:f127:d13d:e4b. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::49ab:f127:d13d:e4b. Set the 'ServerName' directive globally to suppress this message
+[Sun Oct 02 22:17:50.569583 2022] [mpm_winnt:notice] [pid 9612:tid 772] AH00354: Child: Starting 64 worker threads.
