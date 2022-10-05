@@ -1,0 +1,2 @@
+[Sun Oct 02 22:48:44.477944 2022] [fcgid:warn] [pid 20052:tid 1368] (OS 109)Ha terminado la canalización.  : [client 127.0.0.1:54629] mod_fcgid: get overlap result error, referer: http://tintatex.local/wp-cron.php?doing_wp_cron=1664772522.4101870059967041015625
+[Sun Oct 02 22:48:44.478945 2022] [core:error] [pid 20052:tid 1368] [client 127.0.0.1:54629] End of script output before headers: wp-cron.php, referer: http://tintatex.local/wp-cron.php?doing_wp_cron=1664772522.4101870059967041015625
